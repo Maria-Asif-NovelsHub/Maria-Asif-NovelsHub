@@ -63,6 +63,43 @@ nav a:hover {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  /* Home Page Styling */
+.home-container {
+    text-align: center;
+}
+
+.novel-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.novel-name {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #121212;
+}
+
+.home-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    background: #121212;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.home-btn:hover {
+    background: #ff69b4;
+}
 }
 
 .novel-card a:hover {
