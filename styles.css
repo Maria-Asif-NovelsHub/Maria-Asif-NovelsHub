@@ -174,3 +174,42 @@ body {
     font-weight: normal;
     color: #444;
 }
+.home-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.novel-card {
+    text-align: center;
+    width: 300px;
+}
+
+.novel-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.novel-card h2 {
+    margin: 15px 0;
+    color: #003951;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;   /* stack by stack */
+    gap: 15px;
+}
+
+.btn {
+    background-color: #003951;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: hotpink;
+}
