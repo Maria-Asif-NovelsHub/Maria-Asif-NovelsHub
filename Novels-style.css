@@ -1,0 +1,10 @@
+header {
+  text-align: centre;
+}
+header {
+  background: #000000;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
