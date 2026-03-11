@@ -2,19 +2,19 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #003951;
-    color: white;
+    background: #ffffff;
+    color: #000000;
 }
 
 /* Navigation Bar */
 .navbar {
-    background: #003951;
+    background: #ffffff;
     padding: 15px 0;
     text-align: center;
 }
 
 .navbar a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
     text-align: centre;
@@ -62,7 +62,7 @@ body {
 .home-btn {
     text-decoration: none;
     padding: 12px 25px;
-    background: #121212;
+    background: #000000;
     color: white;
     border-radius: 6px;
     font-weight: bold;
