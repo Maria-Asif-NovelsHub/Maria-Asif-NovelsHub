@@ -1,1 +1,43 @@
-
+.{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.hero{
+  min-height: 100vh;
+  background-image: url(InShot_20260315_094315869.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: centre;
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+}
+.content{
+  text-align: centre;
+  color:#fff;
+}
+.content h1{
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.content p{
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.content .btn{
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color:transparent;
+  color:#fff;
+  border-radius: 5px solid white;
+  text-decoration: none;
+  transition:0.3s ease;
+}
+.content .btn:hover{ 
+  background-color:white;
+  color:black;
+}
+  
+  
