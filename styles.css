@@ -1,41 +1,66 @@
-/* General Body */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-    color: #000000;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar */
-.navbar {
-    background: #ffffff;
-    padding: 15px 0;
-    text-align: center;
+/* Navigation bar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
 }
 
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    text-align: centre;
-    font-weight: bold;
-    font-size: 16px;
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#003951;
+border:2px solid #c5a24d;
+padding:5px 12px;
 }
 
-.navbar a:hover {
-    color: #ff69b4;
+/* Nav links */
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:30px;
 }
 
-/* Center Content */
-.home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    text-align: center;
+.nav-links a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:0.3s;
 }
 
+.nav-links a:hover{
+color:#c5a24d;
+}
+
+/* Hero section */
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+url("InShot_20260315_091946667.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+color:white;
+font-size:60px;
+letter-spacing:3px;
+}
 /* Novel Image */
 .novel-img {
     width: 300px;
