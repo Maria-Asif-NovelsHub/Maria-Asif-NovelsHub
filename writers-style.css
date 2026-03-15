@@ -1,0 +1,71 @@
+/* Writers Section */
+.writers-heading {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.writers-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Writer Card */
+.writer-card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.writer-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.writer-card h3 {
+    margin-top: 15px;
+}
+
+/* Button Styling */
+.writer-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #003951;   /* your dark blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.writer-card a:hover {
+    color: hotpink;
+}
+.main-content {
+    text-align: center;
+    justify-content: centre;
+    padding: 60px 20px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #003951;
+}
+
+.main-content h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #444;
+}
+.home-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
